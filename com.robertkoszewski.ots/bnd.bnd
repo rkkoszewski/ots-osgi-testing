@@ -1,7 +1,10 @@
 -buildpath: \
-	osgi.annotation; version=6.0.1,\
-	osgi.core; version=6.0,\
-	osgi.cmpn; version=6.0
+	osgi.annotation;version=6.0.1,\
+	osgi.core;version=6.0,\
+	osgi.cmpn;version=6.0,\
+	com.robertkoszewski.ots.core;version=latest,\
+	com.robertkoszewski.ots.splash;version=latest,\
+	com.robertkoszewski.ots.splash.api;version=latest
 
 -testpath: \
 	junit; version=4,\
