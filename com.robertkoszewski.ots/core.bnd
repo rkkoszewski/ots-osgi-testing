@@ -3,4 +3,3 @@ Export-Package: com.robertkoszewski.ots
 Bundle-Name: com.robertkoszewski.ots.core
 Bundle-Description: Open Test Suite Core Bundle
 -dsannotations: *
-Import-Package: *

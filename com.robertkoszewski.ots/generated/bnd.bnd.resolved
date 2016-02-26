@@ -1,0 +1,7 @@
+org.apache.felix.gogo.command;version='[0.14.0,0.14.1)';resolution=https://raw.githubusercontent.com/bndtools/bundle-hub/master/org.apache.felix.gogo.command/org.apache.felix.gogo.command-0.14.0.jar
+org.apache.felix.gogo.shell;version='[0.10.0,0.10.1)';resolution=https://raw.githubusercontent.com/bndtools/bundle-hub/master/org.apache.felix.gogo.shell/org.apache.felix.gogo.shell-0.10.0.jar
+com.robertkoszewski.ots.splash;version=snapshot;resolution=file:/D:/Users/rkkos/Documents/GitHub/ots-osgi-testing/com.robertkoszewski.ots/generated/com.robertkoszewski.ots.splash-1.0.0.jar
+org.apache.felix.gogo.runtime;version='[0.16.2,0.16.3)';resolution=https://raw.githubusercontent.com/bndtools/bundle-hub/master/org.apache.felix.gogo.runtime/org.apache.felix.gogo.runtime-0.16.2.jar
+com.robertkoszewski.ots.splash.api;version=snapshot;resolution=file:/D:/Users/rkkos/Documents/GitHub/ots-osgi-testing/com.robertkoszewski.ots/generated/com.robertkoszewski.ots.splash.api-1.0.0.jar
+com.robertkoszewski.ots.core;version=snapshot;resolution=file:/D:/Users/rkkos/Documents/GitHub/ots-osgi-testing/com.robertkoszewski.ots/generated/com.robertkoszewski.ots.core-1.0.0.jar
+org.apache.felix.scr;version='[2.0.2,2.0.3)';resolution=https://raw.githubusercontent.com/bndtools/bundle-hub/master/org.apache.felix.scr/org.apache.felix.scr-2.0.2.jar

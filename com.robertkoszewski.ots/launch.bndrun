@@ -6,17 +6,20 @@
 -resolve.effective: active;skip:="osgi.service"
 
 -runbundles: \
-	com.robertkoszewski.ots.core;version='[1.0.0,1.0.1)',\
+	com.robertkoszewski.ots.core;version=snapshot,\
+	com.robertkoszewski.ots.splash;version=snapshot,\
+	com.robertkoszewski.ots.splash.api;version=snapshot,\
 	org.apache.felix.gogo.command;version='[0.14.0,0.14.1)',\
 	org.apache.felix.gogo.runtime;version='[0.16.2,0.16.3)',\
 	org.apache.felix.gogo.shell;version='[0.10.0,0.10.1)',\
-	org.apache.felix.scr;version='[2.0.0,2.0.1)',\
 	org.apache.felix.scr;version='[2.0.2,2.0.3)'
 
 -runrequires: \
 	osgi.identity;filter:='(osgi.identity=org.apache.felix.gogo.shell)',\
 	osgi.identity;filter:='(osgi.identity=org.apache.felix.gogo.command)',\
-	osgi.identity;filter:='(osgi.identity=com.robertkoszewski.ots.core)'
+	osgi.identity;filter:='(osgi.identity=com.robertkoszewski.ots.core)',\
+	osgi.identity;filter:='(osgi.identity=com.robertkoszewski.ots.splash)',\
+	osgi.identity;filter:='(osgi.identity=com.robertkoszewski.ots.splash.api)',\
+	osgi.identity;filter:='(osgi.identity=org.apache.felix.gogo.runtime)'
 -runfw: org.apache.felix.framework;version='[5.2.0,5.2.0]'
 -runee: JavaSE-1.8
--resolve: auto
